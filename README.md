@@ -2,7 +2,7 @@
 
 To get started 
 
-* Click the green Code button in Github
+* Click the green Code button above
 * Click the button at the end of the url to copy the url
 * Click the Git button on the left panel in JupyterLab
 * Click Clone a Repository
