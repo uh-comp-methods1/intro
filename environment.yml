@@ -1,0 +1,7 @@
+name: comp-methods
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - numpy=1.21.2
+  - matplotlib=3.4.3
