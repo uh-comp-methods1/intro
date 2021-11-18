@@ -21,7 +21,7 @@ No further logins to turso are required if you only wish to use the hub.
 
 Now 
 
-* Go to the [hub](hub.cs.helsinki.fi) and log in
+* Go to the [hub](https://hub.cs.helsinki.fi) and log in
 * Choose the Vorna profile with the least computational resources 
   - Do _not_ choose a classic notebook profile
 * Go to the `home` directory using the File Browser in JupyterLab
