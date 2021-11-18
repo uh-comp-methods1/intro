@@ -23,7 +23,7 @@ Now
 
 * Go to the [hub](https://hub.cs.helsinki.fi) and log in
 * Choose the Vorna profile with the least computational resources 
-  - Do _not_ choose a classic notebook profile
+  - Do **not** choose a classic notebook profile
 * Go to the `home` directory using the File Browser in JupyterLab
 * Click Bash under **Console**
 * Run the following command by copy-pasting it into the console and pressing shift+enter
