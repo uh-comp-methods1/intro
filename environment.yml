@@ -1,4 +1,4 @@
-name: comp-methods
+name: comp-methods-intro
 channels:
   - conda-forge
   - defaults
