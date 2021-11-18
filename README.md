@@ -9,9 +9,9 @@ Simply click the following button
 
 ## Running at hub.cs.helsinki.fi
 
-This option is available only for the participants of the computational methods course at UH. If you are not in the UH network, you need to establish first a VPN connection, see [instructions](https://helpdesk.it.helsinki.fi/en/help/5190) on VPN connections. Those preferring the Linux command line can use `openvpn` with the [configuration](https://cubbli.cs.helsinki.fi/hy-vpn-tun.ovpn), see [instructions](https://wiki.helsinki.fi/display/it4sci/Remote+access+to+University+resources).
+This option is available only for the participants of the computational methods course at UH. If you are not in the UH network, you need to establish first a VPN connection, see the [instructions](https://helpdesk.it.helsinki.fi/en/help/5190) on VPN connections. Those preferring the Linux command line can use `openvpn` with the [configuration](https://cubbli.cs.helsinki.fi/hy-vpn-tun.ovpn), see the [instructions](https://wiki.helsinki.fi/display/it4sci/Remote+access+to+University+resources).
 
-If you haven't previously logged into `turso.cs.helsinki.fi`, you need to do so to create your home directory. To do this in the UH network, open a terminal and run 
+If you haven't previously logged into `turso.cs.helsinki.fi`, you need to do so to create your home directory. To do this, open a terminal and run 
 
 ```
 ssh your_username@turso.cs.helsinki.fi
@@ -21,7 +21,7 @@ No further logins to turso are required if you only wish to use the hub.
 
 Now 
 
-* Go to <hub.cs.helsinki.fi> and log in
+* Go to the [hub](hub.cs.helsinki.fi) and log in
 * Choose the Vorna profile with the least computational resources 
   - Do _not_ choose a classic notebook profile
 * Go to the `home` directory using the File Browser in JupyterLab
