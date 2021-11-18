@@ -6,4 +6,3 @@ dependencies:
   - python=3.6.6
   - numpy=1.19.4
   - matplotlib=3.3.3
-  - ipympl=0.6.2
