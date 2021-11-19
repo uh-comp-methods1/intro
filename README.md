@@ -1,6 +1,6 @@
 # Introduction
 
-The Jupyter notebook `python_intro.ipynb` gives an introduction Python. The notebook can be run either in a cloud environment or locally on your computer. The former option requires no installation but, in particular in the case of mybinder.org, it can be slow to start up and has limited computational resources. The latter option requires some setting up but is more convenient in the long run.
+The Jupyter notebook `python_intro.ipynb` gives an introduction to Python. The notebook can be run either in a cloud environment or locally on your computer. The former option requires no installation but, in particular in the case of mybinder.org, it can be slow to start up and has limited computational resources. The latter option requires some setting up but is more convenient in the long run.
 
 ## Running at mybinder.org
 
