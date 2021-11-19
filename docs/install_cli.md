@@ -12,7 +12,7 @@ sh Miniconda3-latest-Linux-x86_64.sh
 ln -s ~/miniconda3/bin/conda .local/bin
 ```
 
-Once you have Conda, download the file [environment.yml](https://raw.githubusercontent.com/uh-comp-methods1/install/main/environment.yml) and install the environment it specifies by
+Once you have Conda, download the file [environment.yml](https://raw.githubusercontent.com/uh-comp-methods1/intro/main/docs/environment.yml) and install the environment it specifies by
 ```
 conda env create -f environment.yml
 ```
