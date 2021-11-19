@@ -1,6 +1,6 @@
 # Introduction
 
-The Jupyter notebook `python_intro.ipynb` gives an interactive introduction Python. The interactive examples can be run either in a cloud environment or locally on your computer. The former option requires no installation but, in particular in the case of mybinder.org, can be slow to start up and has limited computational resources. The latter option requires some setting up but is more convenient in the long run.
+The Jupyter notebook `python_intro.ipynb` gives an introduction Python. The notebook can be run either in a cloud environment or locally on your computer. The former option requires no installation but, in particular in the case of mybinder.org, it can be slow to start up and has limited computational resources. The latter option requires some setting up but is more convenient in the long run.
 
 ## Running at mybinder.org
 
@@ -9,7 +9,7 @@ Simply click the following button
 
 ## Running at hub.cs.helsinki.fi
 
-This option is available only for the participants of the computational methods course at UH. If you are not in the UH network, you need to establish first a VPN connection, see the [instructions](https://helpdesk.it.helsinki.fi/en/help/5190) on VPN connections. Those preferring the Linux command line can use `openvpn` with the [configuration](https://cubbli.cs.helsinki.fi/hy-vpn-tun.ovpn), see the [instructions](https://wiki.helsinki.fi/display/it4sci/Remote+access+to+University+resources).
+This option is available only for the participants of the computational methods course at UH. If you are not in the UH network, you need to establish first a VPN connection, see the [instructions](https://helpdesk.it.helsinki.fi/en/help/5190) on VPN connections. Those preferring the Linux command line can use `openvpn` with this [configuration](https://cubbli.cs.helsinki.fi/hy-vpn-tun.ovpn), see the [instructions](https://wiki.helsinki.fi/display/it4sci/Remote+access+to+University+resources).
 
 If you haven't previously logged into `turso.cs.helsinki.fi`, you need to do so to create your home directory. To do this, open a terminal and run 
 
@@ -39,7 +39,7 @@ Open the notebook for an introduction to Python.
 
 ## Running locally
 
-Install the programming environment by following these [instructions](https://github.com/uh-comp-methods1/install). Then
+Install the programming environment by following these [instructions](docs/install.md). Then
 
 * Click the green Code button above
 * Click the button at the end of the url to copy the url
