@@ -2,7 +2,7 @@
 
 The Jupyter notebook `python_intro.ipynb` gives an introduction to Python. The notebook can be run either in a cloud environment or locally on your computer. Below are instructions on local installation as well as on two cloud environments:
 * [mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html): easy to use but can be slow to start up and has limited computational resources
-* [hub.cs.helsinki.fi])(https://wiki.helsinki.fi/display/it4sci/Jupyter+Hub+User+Guide): available for participants of the computational methods course at UH, requires some setup
+* [hub.cs.helsinki.fi](https://wiki.helsinki.fi/display/it4sci/Jupyter+Hub+User+Guide): available for participants of the computational methods course at UH, requires some setup
 
 ## Running the notebook at mybinder.org
 
@@ -14,7 +14,7 @@ Simply click the following button
 Install the Python environment:
 
 1. If you are not in the UH network, you need to establish first a VPN connection, see the [instructions](#vpn-connection) below
-2. Log into `turso.cs.helsinki.fi` by opening a terminal and running
+2. Log into `turso` by opening a terminal and running
 ```
 ssh your_username@turso.cs.helsinki.fi
 ```
