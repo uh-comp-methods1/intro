@@ -65,3 +65,7 @@ git clone https://github.com/uh-comp-methods1/intro
 This creates a new folder called `intro`
 containing a Jupyter notebook called `python_intro.ipynb`.
 Open the notebook for an introduction to Python.
+
+## VPN connection
+
+See the [instructions](https://helpdesk.it.helsinki.fi/en/help/5190) at IT-Helpdesk. Those preferring the Linux command line can use `openvpn` with this [configuration](https://cubbli.cs.helsinki.fi/hy-vpn-tun.ovpn), see the [instructions](https://wiki.helsinki.fi/display/it4sci/Remote+access+to+University+resources).
