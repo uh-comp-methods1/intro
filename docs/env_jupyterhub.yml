@@ -1,0 +1,11 @@
+name: comp-methods
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.7
+  - numpy=1.21.2
+  - matplotlib=3.4.3
+  - scipy=1.7.1
+  - sympy=1.9
+  - pandas=1.3.3
