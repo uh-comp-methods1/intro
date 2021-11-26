@@ -37,6 +37,8 @@ Now follow the instructions on [running the notebook](#running-the-notebook) bel
 
 ## Local installation
 
+(Those preferring the Linux command line can follow these [alternative instructions](docs/install_cli.md).)
+
 You need to install first [Anaconda](https://www.anaconda.com/products/individual). Once you have Anaconda installed, do the following: 
 
 * Download the [environment file](https://raw.githubusercontent.com/uh-comp-methods1/intro/main/docs/environment.yml)
