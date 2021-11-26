@@ -1,15 +1,9 @@
 # Installation using Linux command line
 
 Install the Conda environment manager:
-
-1. Download and install
 ```
 curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
-```
-2. For convenience, create link to the conda binary
-```
-ln -s ~/miniconda3/bin/conda .local/bin
 ```
 
 Once you have Conda, download the file [environment.yml](https://raw.githubusercontent.com/uh-comp-methods1/intro/main/docs/environment.yml) and install the environment it specifies by
@@ -37,10 +31,8 @@ conda activate comp-methods
 3. Install some of the tools that we need (have a look at the `environment.yml` for the rest)
 ```
 conda config --env --add channels conda-forge
-conda install jupyterlab
 conda install numpy
 conda install matplotlib
-conda install ipympl
 ```
 
 The simplest way to create an environment file is
