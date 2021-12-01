@@ -58,6 +58,11 @@ Now proceed to the next section.
 ## Running the notebook
 
 * Click Terminal under Other
+    - You might want to create a subdirectory for the course material, but this is optional:
+```
+mkdir comp-methods
+cd comp-methods
+```
 * Run the following command 
 ```
 git clone https://github.com/uh-comp-methods1/intro
