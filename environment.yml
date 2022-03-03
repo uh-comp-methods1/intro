@@ -1,8 +1,8 @@
+name: comp-methods-intro
 # Minimal environment to run python_intro.ipynb at mybinder.org
 # This environment does not work for turtle_graphics.ipynb
 # The environment for local installation is given by 
 # docs/environment.yml
-name: comp-methods-intro
 channels:
   - conda-forge
   - defaults
