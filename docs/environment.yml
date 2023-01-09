@@ -15,7 +15,6 @@ dependencies:
   - jupyterlab
   - jupyterlab-git
   - git
-  - rise
   - pip
   - pip:
     - scikit-fem==5.0.0
