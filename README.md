@@ -1,7 +1,9 @@
 # Introduction
 
-The Jupyter notebook `python_intro.ipynb` gives an introduction to Python. The notebook can be run either in the [mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html) cloud environment or locally on your computer. The cloud is easy to use but can be slow to start up and has limited computational resources. To run in the cloud, simply click the following button 
+The Jupyter notebook `python_intro.ipynb` gives an introduction to Python. The notebook can be run either locally on your computer or in the [mybinder.org](https://mybinder.readthedocs.io/en/latest/about/about.html) cloud environment. The cloud is easy to use but can be slow to start up and has limited computational resources. To run in the cloud, simply click the following button 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/uh-comp-methods1/intro/main?labpath=python_intro.ipynb)
+
+For anything more than the bare minimum the local installation is recommended.
 
 ## Local installation
 
@@ -33,3 +35,17 @@ Now you can download the notebook in JupyterLab as follows:
 This creates a new folder called `intro`
 containing a Jupyter notebook called `python_intro.ipynb`.
 Open the notebook for an introduction to Python.
+
+## About Jupyter Notebooks
+
+The notebooks use `.ipynb` extension which stands for *Interactive Python Notebook*. It is developed by [Project Jupyter](https://jupyter.org/) and has its roots in the [iPython](https://ipython.org/)-package (for Interactive Python). The notebooks themselves are actually JSON files which contain blocks of code, visuals from plots, markdown, metadata etc. and nowadays support programming languages other than Python as well.
+
+To edit and run the notebooks the web-based Jupyter Notebook and the more recent JupyterLab interface are used but these are not the only option. It is possible to run the notebooks with an IDE (Integrated Development Environment) such as [Visual Studio Code](https://code.visualstudio.com).
+
+### Running Jupyter Notebooks in VS Code
+
+There are simple instructions for running Jupyter Notebooks available on [the VS Code website](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
+
+You'll need to install the Python and Jupyter extensions for VS Code and have the Python environment set up. Then simply launch VS Code, open a notebook and select the right kernel (Python and right environment) from top right corner.
+
+Using an IDE instead of the web browser allows for more customization, better keyboard shortcuts and makes it harder to accidentally kill the Jupyter server when you meant to just close a web page.
