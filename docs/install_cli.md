@@ -6,7 +6,7 @@ curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 sh Miniconda3-latest-Linux-x86_64.sh
 ```
 
-Once you have Conda, download the file [environment.yml](https://raw.githubusercontent.com/uh-comp-methods1/intro/main/docs/environment.yml) and install the environment it specifies by
+Once you have Conda, download the file [environment.yml](https://raw.githubusercontent.com/uh-comp-methods1/intro/spring2024/docs/environment.yml) and install the environment it specifies by
 ```
 conda env create -f environment.yml
 ```
@@ -39,7 +39,7 @@ The simplest way to create an environment file is
 ```
 conda env export --from-history > environment.yml
 ```
-However, explicit versions of installed packages are not listed in the resulting environment file, and whence the environment imported from this file will change over time. To avoid this, we need to tease out the versions of the packages. There seems to be no easy way to do this, but for example the following shell script will do the job (this is in [fish](https://fishshell.com/))
+However, explicit versions of installed packages are not listed in the resulting environment file, and whence the environment imported from this file will change over time. To avoid this, we can tease out the versions of the packages. There seems to be no easy way to do this, but for example the following shell script will do the job (this is in [fish](https://fishshell.com/))
 ```fish
 function conda-share-env --description \
 'Create environment.yml file with explicit versions' 
